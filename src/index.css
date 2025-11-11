@@ -1,0 +1,24 @@
+/* font section 1 */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+/* end section 1  */
+
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #f7f8f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 2rem 0;
+}

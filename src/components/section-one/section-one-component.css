@@ -1,0 +1,344 @@
+.section1_div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1_title_p {
+  text-align: center;
+  font-size: 1.2rem;
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.in-view .section1_title_p {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.section1_title_h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(172, 31, 31);
+  font-family: "Dancing Script", cursive;
+  opacity: 0;
+  transform: translateX(60px);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.3s;
+}
+
+.in-view .section1_title_h2 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.section1_img {
+  width: 12rem;
+}
+
+.section1_div2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+}
+
+.div_left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.div_img_longden_left {
+  width: 3rem;
+  opacity: 0;
+  transform: translateX(-50px) translateY(-20px);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.6s;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.in-view .div_img_longden_left {
+  opacity: 1;
+  transform: translateX(0) translateY(-20px);
+}
+
+/* NEW STYLES FOR TIME CONTENT */
+.div_time_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 240, 240, 0.9) 0%,
+    rgba(255, 245, 245, 0.95) 100%
+  );
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(172, 31, 31, 0.1);
+  border: 1px solid rgba(172, 31, 31, 0.1);
+  position: relative;
+  overflow: hidden;
+  min-width: 320px;
+}
+
+.div_time_content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgb(172, 31, 31),
+    transparent
+  );
+}
+
+.invitation-header {
+  text-align: center;
+  /* margin-bottom: 0.5rem; */
+}
+
+.invitation-label {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  background: linear-gradient(45deg, rgb(172, 31, 31), rgb(200, 60, 60));
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.3s;
+  box-shadow: 0 4px 15px rgba(172, 31, 31, 0.3);
+}
+
+.invitation-guest {
+  color: rgb(172, 31, 31);
+  font-size: 1.4rem;
+  margin: 0.8rem 0 0 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.5s;
+}
+
+.invitation-body {
+  text-align: center;
+  /* margin: 1rem 0; */
+}
+
+.invitation-text {
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+  color: #555;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.invitation-text:nth-child(1) {
+  transition-delay: 0.7s;
+}
+
+.invitation-text:nth-child(2) {
+  transition-delay: 0.8s;
+}
+
+.time-highlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.time-decoration {
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(172, 31, 31));
+  opacity: 0;
+  transform: scaleX(0);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.time-decoration-left {
+  transition-delay: 1s;
+}
+
+.time-decoration-right {
+  background: linear-gradient(90deg, rgb(172, 31, 31), transparent);
+  transition-delay: 1.1s;
+}
+
+.main-time {
+  color: rgb(172, 31, 31);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0.8rem 1.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  border: 2px solid rgba(172, 31, 31, 0.2);
+  opacity: 0;
+  transform: scale(0.9) translateY(10px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.9s;
+  box-shadow: 0 4px 20px rgba(172, 31, 31, 0.15);
+}
+
+.lunar-date {
+  font-size: 0.9rem;
+  color: #777;
+  font-style: italic;
+  margin: 0.5rem 0 0 0;
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 1.2s;
+}
+
+.decoration-flower {
+  position: absolute;
+  bottom: -10px;
+  width: 60px;
+  height: 20px;
+  background: radial-gradient(
+    ellipse at center,
+    rgb(172, 31, 31) 0%,
+    transparent 70%
+  );
+  opacity: 0.1;
+  border-radius: 50%;
+}
+
+/* Animation when in view */
+.in-view .invitation-label,
+.in-view .invitation-guest,
+.in-view .invitation-text,
+.in-view .lunar-date {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.in-view .main-time {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.in-view .time-decoration {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.div_img_longden_right {
+  width: 3rem;
+  opacity: 0;
+  transform: translateX(50px) translateY(20px);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 1.4s;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.in-view .div_img_longden_right {
+  opacity: 1;
+  transform: translateX(0) translateY(20px);
+}
+
+/* .section1_div3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.section1_div3_img {
+  width: 15rem;
+  margin-top: -1.2rem;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 1.6s;
+}
+
+.in-view .section1_div3_img {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section1_title_p {
+    transform: translateX(-40px);
+  }
+
+  .section1_title_h2 {
+    transform: translateX(40px);
+  }
+
+  .div_img_longden_left {
+    transform: translateX(-30px) translateY(-15px);
+  }
+
+  .div_time_content {
+    padding: 1.5rem 1rem;
+    min-width: 280px;
+    gap: 0.8rem;
+  }
+
+  .invitation-label {
+    font-size: 0.8rem;
+    padding: 0.4rem 1.2rem;
+  }
+
+  .invitation-guest {
+    font-size: 1.2rem;
+  }
+
+  .main-time {
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .time-highlight {
+    gap: 0.5rem;
+  }
+
+  .time-decoration {
+    width: 20px;
+  }
+
+  .div_img_longden_right {
+    transform: translateX(30px) translateY(15px);
+  }
+
+  /* .section1_div3_img {
+    transform: translateY(40px);
+  } */
+}
+
+@media (max-width: 480px) {
+  .section1_div2 {
+    gap: 0.5rem;
+  }
+
+  .div_time_content {
+    min-width: 250px;
+    padding: 1.2rem 0.8rem;
+  }
+
+  .main-time {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,168 @@
+.section2_div1 {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.section2_div1_info_man {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: end;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+}
+
+.in-view .section2_div1_info_man {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section2_div1_info_man > h3,
+.section2_div1_info_woman > h3 {
+  text-transform: uppercase;
+}
+
+.section2_div1_info_man > p,
+.section2_div1_info_woman > p {
+  font-size: 1.2rem;
+}
+
+.section2_div1_info_woman {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: start;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+  transition-delay: 0.3s;
+}
+
+.in-view .section2_div1_info_woman {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vertical-line {
+  opacity: 0;
+  transform: scaleY(0);
+  transition: all 0.8s ease-out;
+  transition-delay: 0.6s;
+}
+
+.in-view .vertical-line {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.section2_div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: rgb(172, 31, 31);
+}
+
+.groom-name {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1s ease-out;
+  transition-delay: 0.9s;
+}
+
+.in-view .groom-name {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.and-symbol {
+  opacity: 0;
+  transition: all 0.8s ease-out;
+  transition-delay: 1.2s;
+}
+
+.in-view .and-symbol {
+  opacity: 1;
+}
+
+.bride-name {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease-out;
+  transition-delay: 1.5s;
+}
+
+.in-view .bride-name {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.announcement-text {
+  opacity: 0;
+  transition: all 1s ease-out;
+  transition-delay: 0.7s;
+}
+
+.in-view .announcement-text {
+  opacity: 1;
+}
+
+.section2_div3 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  border: 0.3rem solid rgb(172, 31, 31);
+  border-radius: 0.5rem;
+  background: radial-gradient(
+      circle at top left,
+      rgba(172, 31, 31, 0.8),
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(172, 31, 31, 0.8),
+      transparent 70%
+    );
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 1s ease-out;
+  transition-delay: 1.8s;
+}
+
+.in-view .section2_div3 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.section2_div3_img {
+  padding: 0.5rem;
+  width: 10rem;
+  opacity: 0;
+  transition: all 0.8s ease-out;
+  transition-delay: 2s;
+}
+
+.in-view .section2_div3_img {
+  opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section2_div1_info_man,
+  .section2_div1_info_woman {
+    transform: translateY(20px);
+  }
+
+  .groom-name {
+    transform: translateX(-30px);
+  }
+
+  .bride-name {
+    transform: translateX(30px);
+  }
+}
