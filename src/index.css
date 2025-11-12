@@ -12,17 +12,17 @@
   --desktop: 1200px;
 
   /* Biến màu chủ đạo */
-  --primary-color: #752323;
-  --secondary-color: #f4ede4; /* Màu kem */
+  --primary-color: #ffffff;
 
   --color-light: #ffffff;
   --color-black: #000000;
+  --color-red: #fc0a0a;
 
   /* Các biến hệ thống */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #fff;
+  background: #ece8e1;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
@@ -51,20 +51,20 @@ main {
 @media (max-width: 1200px) {
   main {
     max-width: 95%;
-    padding: 0.8rem;
+    padding: 0.7rem;
   }
 }
 
 @media (max-width: 768px) {
   main {
     max-width: 95%;
-    padding: 0.6rem;
+    padding: 0.5rem;
   }
 }
 
 @media (max-width: 576px) {
   main {
-    max-width: 95%;
-    padding: 0.4rem;
+    max-width: 98%;
+    padding: 0.3rem;
   }
 }
