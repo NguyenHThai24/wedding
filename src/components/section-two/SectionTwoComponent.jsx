@@ -8,6 +8,7 @@ import imgTym from "../../../public/images/section-two/tym.png";
 import img1 from "../../../public/images/section-two/1.jpg";
 import img2 from "../../../public/images/section-two/2.jpg";
 import img3 from "../../../public/images/section-two/3.jpg";
+import imgCalendar from "../../../public/images/section-two/calendar.png";
 
 const SectionTwoComponent = () => {
   return (
@@ -91,17 +92,17 @@ const SectionTwoComponent = () => {
             <p className="time-col">9:00</p>
             <div className="vertical-divider"></div>
             <p className="date-col">
-              Chủ Nhật <br />
+              Thứ năm <br />
               <span
                 style={{
                   fontFamily: '"Titillium Web", sans-serif',
                   fontSize: "3rem",
                 }}
               >
-                16
+                19
               </span>{" "}
               <br />
-              Tháng 11
+              Tháng 3
             </p>
             <div className="vertical-divider"></div>
             <p className="year-col">2026</p>
@@ -112,11 +113,11 @@ const SectionTwoComponent = () => {
               fontSize: "1.05rem",
             }}
           >
-            (Nhằm Ngày 03.02.2026 Âm lịch)
+            (Nhằm Ngày 03.01.2026 Âm lịch)
           </p>
         </div>
         <div>
-          <img src="" alt="Lịch" />
+          <img src={imgCalendar} alt="Lịch" className="img_calendar" />
         </div>
       </div>
     </section>

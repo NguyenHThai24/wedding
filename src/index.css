@@ -38,7 +38,7 @@ p {
 }
 
 main {
-  width: 100%;
+  width: 60%;
   max-width: var(--desktop);
   background: var(--primary-color);
   min-height: 100vh;
@@ -50,7 +50,7 @@ main {
 
 @media (max-width: 1200px) {
   main {
-    max-width: 95%;
+    max-width: 90%;
     padding: 0.7rem;
   }
 }
