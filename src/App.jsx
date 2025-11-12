@@ -3,7 +3,12 @@ import SectionOneComponent from "./components/section-one/SectionOneComponent";
 import SectionTwoComponent from "./components/section-two/SectionTwoComponent";
 
 function App() {
-  return <main>1</main>;
+  return (
+    <main>
+      <SectionOneComponent />
+      <SectionTwoComponent />
+    </main>
+  );
 }
 
 export default App;
