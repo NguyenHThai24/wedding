@@ -3,10 +3,23 @@
 /* end section 1  */
 
 :root {
+  /* Biến kích thước màn hình */
+  --mobile: 576px;
+  --tablet: 768px;
+  --desktop: 1200px;
+
+  /* Biến màu chủ đạo */
+  --primary-color: #752323;
+  --secondary-color: #f4ede4; /* Màu kem */
+
+  --color-light: #ffffff;
+  --color-black: #000000;
+
+  /* Các biến hệ thống */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #f7f8f6;
+  background: #fff;
 }
 
 h1,
@@ -19,6 +32,34 @@ p {
   padding: 0;
 }
 
-section {
-  padding: 2rem 0;
+main {
+  width: 100%;
+  max-width: var(--desktop);
+  background: var(--primary-color);
+  min-height: 100vh;
+  color: var(--color-light);
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  main {
+    max-width: 95%;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    max-width: 95%;
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+    max-width: 95%;
+    padding: 0.4rem;
+  }
 }
