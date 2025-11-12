@@ -1,0 +1,191 @@
+.section_two {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section_two_div1 {
+  border: 1px solid var(--color-light);
+  padding: 0.8rem;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  text-align: center;
+  background: var(--color-light);
+  color: var(--color-black);
+}
+
+.section_two_div1 > h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.section_two_div2 {
+  background: var(--color-light);
+  color: var(--color-black);
+  padding: 0.6rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section_two_div2_div1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 1rem;
+}
+
+.section_two_div2_div1_nam,
+.section_two_div2_div1_nu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.section_two_div2_div1_nam_div1,
+.section_two_div2_div1_nu_div1 {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--color-light);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section_two_div2_div1_nam_img,
+.section_two_div2_div1_nu_img {
+  width: 95%;
+  height: 85%;
+  border-radius: 50%;
+}
+
+.section_two_div2_div1_nam_div1 > h3,
+.section_two_div2_div1_nu_div1 > h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+.section_two_div2_div2 {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.section_two_div2_div2_day,
+.section_two_div2_div2_hour,
+.section_two_div2_div2_minute,
+.section_two_div2_div2_second {
+  border: 1px solid var(--color-black);
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.5rem;
+  width: 3rem;
+  height: 4rem;
+  text-align: center;
+  color: var(--color-light);
+  background: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 300;
+}
+/* kết thúc khối 1 */
+
+.section_two_div3 {
+  background: var(--color-light);
+  color: var(--color-black);
+  padding: 0.6rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.section_two_div3 > .section_two_div3_div1 > h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.section_two_div3_div2 {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  height: 14rem; /* Chiều cao cố định cho container */
+}
+
+.section_two_div3_div2_img1,
+.section_two_div3_div2_img3 {
+  width: 6rem;
+  height: 82%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.section_two_div3_div2_img2 {
+  width: 7rem;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.section_two_div3_div3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section_two_div3_div3 > h5,
+.section_two_div3_div3 > p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.section_two_div3_div3_div1 {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.time-col {
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-self: end;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 60px;
+  background-color: #000;
+}
+
+.date-col {
+  text-align: center;
+  line-height: 1.4;
+  justify-self: start;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.year-col {
+  font-size: 1.5rem;
+  justify-self: start;
+  font-weight: 900;
+}
