@@ -21,7 +21,7 @@ function App() {
         });
       },
       {
-        threshold: 0.3, // Khi 30% section hiển thị trong viewport
+        threshold: 0.5, // Khi 30% section hiển thị trong viewport
         rootMargin: "-10px 0px -10px 0px", // Điều chỉnh vùng quan sát
       }
     );
