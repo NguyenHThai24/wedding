@@ -8,14 +8,26 @@ import imgTym from "../../../public/images/section-two/tym.png";
 
 const SectionTwoComponent = forwardRef((props, ref) => {
   return (
-    <section id="section2" className="section_two" ref={ref}>
+    <section id="section2" className="section_two do_bong_tren" ref={ref}>
       <div className="section_two_div1">
-        <p className="title animate-slide-left">
+        <p
+          className="title animate-slide-left"
+          style={{
+            position: "relative",
+            zIndex: "1",
+          }}
+        >
           Yêu nhau là chuyện cả đời, <br /> Yêu người vừa ý, cưới người mình
           thương.
         </p>
       </div>
-      <div className="section_two_div2">
+      <div
+        className="section_two_div2"
+        style={{
+          position: "relative",
+          zIndex: "1",
+        }}
+      >
         <div className="section_two_div2_div1">
           <div className="section_two_div2_div1_nam animate-slide-left">
             <h4 className="info_family_man">Nhà trai</h4>
