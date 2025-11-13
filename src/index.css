@@ -29,6 +29,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -68,14 +69,58 @@ section {
   flex-direction: column;
   justify-content: center;
 
-  box-shadow: inset 0 10px 10px -10px rgb(255, 255, 255),
-    /* bóng trên */ inset 0 -10px 10px -10px rgb(255, 255, 255); /* bóng dưới */
+  padding: 0.2rem;
 }
 
 .title {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 500;
+}
+
+.do_bong_tren,
+.do_bong_duoi {
+  position: relative;
+  overflow: hidden; /* để lớp mờ không tràn ra ngoài */
+  z-index: 0;
+}
+
+/* 🌫 Sương mù trên */
+.do_bong_tren::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8),
+    /* đậm hơn ở trên */ rgba(255, 255, 255, 0.4),
+    /* nhạt dần xuống */ rgba(255, 255, 255, 0) /* tan biến hẳn */
+  );
+  filter: blur(10px); /* làm mờ sương */
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* 🌫 Sương mù dưới */
+.do_bong_duoi::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.8),
+    /* đậm ở dưới */ rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0)
+  );
+  filter: blur(10px);
+  pointer-events: none;
+  z-index: 1;
 }
 
 main {
@@ -87,29 +132,27 @@ main {
   background-attachment: fixed;
   min-height: 100vh;
   color: var(--color-light);
-  padding: 0rem;
   margin: 0 auto;
   border-radius: 0.5rem;
-  padding: 1.5rem;
 }
 
 @media (max-width: 1200px) {
   main {
     max-width: 90%;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
   }
 }
 
 @media (max-width: 768px) {
   main {
     max-width: 100%;
-    padding: 0.3rem;
+    /* padding: 0.3rem; */
   }
 }
 
 @media (max-width: 576px) {
   main {
     max-width: 100%;
-    padding: 0.3rem;
+    /* padding: 0.3rem; */
   }
 }

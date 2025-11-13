@@ -5,7 +5,7 @@ import { forwardRef } from "react";
 
 const SectionOneComponent = forwardRef((props, ref) => {
   return (
-    <section id="section1" className="section_one" ref={ref}>
+    <section id="section1" className="section_one do_bong_duoi" ref={ref}>
       <div className="section_one_div1">
         <h3 className="title animate-slide-top">Thư Mời Tiệc Cưới</h3>
         <p className="animate-slide-left">19.02.2026</p>
