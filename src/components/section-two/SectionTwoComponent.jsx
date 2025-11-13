@@ -9,7 +9,7 @@ const SectionTwoComponent = () => {
   return (
     <section className="section_two">
       <div className="section_two_div1">
-        <p>
+        <p className="title">
           Yêu nhau là chuyện cả đời, <br /> Yêu người vừa ý, cưới người mình
           thương.
         </p>
@@ -38,15 +38,7 @@ const SectionTwoComponent = () => {
         </div>
         <div className="section_two_div2_2">
           <div>
-            {/* <p
-              style={{
-                fontWeight: "400",
-                marginBottom: "0.5rem",
-              }}
-            >
-              Chú Rể
-            </p> */}
-            <p className="section_two_div2_2_name">Nguyễn Thanh Tùng</p>
+            <p className="section_two_div2_2_name title">Nguyễn Thanh Tùng</p>
           </div>
           <div
             style={{
@@ -66,7 +58,9 @@ const SectionTwoComponent = () => {
             >
               Cô Dâu
             </p> */}
-            <p className="section_two_div2_2_name">Nguyễn Thị Trúc Giàu</p>
+            <p className="section_two_div2_2_name title">
+              Nguyễn Thị Trúc Giàu
+            </p>
           </div>
         </div>
         <div className="section_two_div3">

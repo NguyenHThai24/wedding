@@ -1,3 +1,9 @@
 .section_five {
   color: var(--color-black);
 }
+
+.section_five > h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+}

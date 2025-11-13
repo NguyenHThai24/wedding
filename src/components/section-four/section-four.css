@@ -1,3 +1,9 @@
 .section_four {
   color: var(--color-black);
 }
+
+.section_four > h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+}

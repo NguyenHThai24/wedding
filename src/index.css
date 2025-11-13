@@ -41,6 +41,12 @@ section {
   padding-top: 3rem;
 }
 
+.title {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
 main {
   max-width: var(--desktop);
   background: var(--primary-color);

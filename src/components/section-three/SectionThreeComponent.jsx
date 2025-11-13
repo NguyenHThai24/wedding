@@ -12,7 +12,7 @@ const SectionThreeComponent = () => {
       {" "}
       <div className="section_two_div4">
         <div className="section_two_div4_div1">
-          <h3>Trân Trọng Kính Mời</h3>
+          <h3 className="title">Trân Trọng Kính Mời</h3>
         </div>
         <div className="section_two_div4_div2">
           <img src={img1} alt="" className="section_two_div4_div2_img1" />
