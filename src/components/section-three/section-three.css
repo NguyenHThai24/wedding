@@ -1,4 +1,8 @@
 .section_two_div4 {
+  width: 40vw;
+  margin: 0 auto;
+}
+.section_two_div4 {
   background: var(--color-light);
   color: var(--color-black);
   padding: 0.6rem 0.8rem;
