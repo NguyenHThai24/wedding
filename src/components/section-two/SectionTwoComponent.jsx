@@ -1,13 +1,14 @@
 import "./section-two-component.css";
+import { forwardRef } from "react";
 
 import imgNam from "../../../public/images/section-two/nam.jpg";
 import imgNu from "../../../public/images/section-two/nu.jpg";
 
 import imgTym from "../../../public/images/section-two/tym.png";
 
-const SectionTwoComponent = () => {
+const SectionTwoComponent = forwardRef((props, ref) => {
   return (
-    <section className="section_two">
+    <section id="section2" className="section_two" ref={ref}>
       <div className="section_two_div1">
         <p className="title animate-slide-left">
           Yêu nhau là chuyện cả đời, <br /> Yêu người vừa ý, cưới người mình
@@ -90,6 +91,6 @@ const SectionTwoComponent = () => {
       </div>
     </section>
   );
-};
+});
 
 export default SectionTwoComponent;

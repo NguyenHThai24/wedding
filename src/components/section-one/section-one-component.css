@@ -38,3 +38,86 @@
 .section_one_div2_img {
   width: 100%;
 }
+
+/* animation  */
+/* Hiệu ứng 1: Chạy từ trái vào */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.section_one.active .animate-slide-left {
+  animation: slideInLeft 1.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Hiệu ứng 2: Chạy từ phải vào */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.section_one.active .animate-slide-right {
+  animation: slideInRight 1.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Hiệu ứng 3: Chạy từ trên xuống */
+@keyframes slideInTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.section_one.active .animate-slide-top {
+  animation: slideInTop 1.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Hiệu ứng 4: Chạy từ dưới lên */
+@keyframes slideInBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.section_one.active .animate-slide-bottom {
+  animation: slideInBottom 1.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Hiệu ứng 5: Hiển thị nhỏ phóng to ra */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.section_one.active .animate-zoom-in {
+  animation: zoomIn 1.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* end animation  */

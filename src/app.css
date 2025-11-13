@@ -1,0 +1,29 @@
+/* Ẩn mặc định tất cả sections */
+section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+/* Khi section trong viewport */
+section.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Tuỳ chọn: Thêm delay cho từng section để tạo hiệu ứng tuần tự */
+section.active:nth-child(1) {
+  transition-delay: 0.1s;
+}
+section.active:nth-child(2) {
+  transition-delay: 0.2s;
+}
+section.active:nth-child(3) {
+  transition-delay: 0.3s;
+}
+section.active:nth-child(4) {
+  transition-delay: 0.4s;
+}
+section.active:nth-child(5) {
+  transition-delay: 0.5s;
+}
