@@ -27,6 +27,18 @@
   font-weight: 200;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-snap-type: y proximity; /* proximity mềm hơn mandatory */
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
 h1,
 h2,
 h3,
@@ -39,8 +51,14 @@ p {
 
 section {
   /* margin-top: 3rem; */
-  height: 100vh;
   border-bottom: 1px solid red;
+
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
 }
 
 .title {
