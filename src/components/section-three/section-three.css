@@ -1,14 +1,11 @@
 .section_two_div4 {
-  width: 40vw;
   margin: 0 auto;
-}
-.section_two_div4 {
   background: var(--color-light);
   color: var(--color-black);
-  padding: 0.6rem 0.8rem;
   display: flex;
   flex-direction: column;
   gap: 1.3rem;
+  /* padding-top: 3rem; */
 }
 
 .section_two_div4 > .section_two_div4_div1 > h3 {

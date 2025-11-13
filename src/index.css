@@ -37,6 +37,10 @@ p {
   padding: 0;
 }
 
+section {
+  padding-top: 3rem;
+}
+
 main {
   max-width: var(--desktop);
   background: var(--primary-color);

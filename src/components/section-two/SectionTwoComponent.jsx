@@ -38,14 +38,14 @@ const SectionTwoComponent = () => {
         </div>
         <div className="section_two_div2_2">
           <div>
-            <p
+            {/* <p
               style={{
                 fontWeight: "400",
                 marginBottom: "0.5rem",
               }}
             >
               Chú Rể
-            </p>
+            </p> */}
             <p className="section_two_div2_2_name">Nguyễn Thanh Tùng</p>
           </div>
           <div
@@ -58,14 +58,14 @@ const SectionTwoComponent = () => {
             <img src={imgTym} alt="" style={{ width: "2.5rem" }} />
           </div>
           <div>
-            <p
+            {/* <p
               style={{
                 fontWeight: "400",
                 marginBottom: "0.5rem",
               }}
             >
               Cô Dâu
-            </p>
+            </p> */}
             <p className="section_two_div2_2_name">Nguyễn Thị Trúc Giàu</p>
           </div>
         </div>
