@@ -1,6 +1,6 @@
 .section_two_div4 {
   margin: 0 auto;
-  background: var(--color-light);
+  /* background: var(--color-light); */
   color: var(--color-black);
   display: flex;
   flex-direction: column;
