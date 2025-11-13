@@ -22,7 +22,13 @@ const SectionTwoComponent = () => {
             <p className="info_family_man">Bà Huỳnh Thị B</p>
             <p className="address">Hiệp Xương, An Giang</p>
           </div>
-
+          <div
+            style={{
+              background:
+                "linear-gradient(black, black) no-repeat center center / 1.5px 100%",
+              height: "100%",
+            }}
+          ></div>
           <div className="section_two_div2_div1_nu">
             <h4 className="info_family_woman">Nhà gái</h4>
             <p className="info_family_woman">Ông </p>
@@ -42,8 +48,14 @@ const SectionTwoComponent = () => {
             </p>
             <p className="section_two_div2_2_name">Nguyễn Thanh Tùng</p>
           </div>
-          <div>
-            <img src={imgTym} alt="" style={{ width: "5rem" }} />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img src={imgTym} alt="" style={{ width: "2.5rem" }} />
           </div>
           <div>
             <p

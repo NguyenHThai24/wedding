@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  width: 40vw;
   margin: 0 auto;
   padding-top: 3rem;
 }
@@ -17,7 +16,7 @@
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-style: italic;
   margin-bottom: 1rem;
 }
@@ -27,28 +26,34 @@
   color: var(--color-black);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .section_two_div2_div1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
+  grid-template-columns: 5fr 1fr 5fr;
   gap: 0rem;
 }
 
-.section_two_div2_div1_nam,
+.section_two_div2_div1_nam {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: end;
+  font-size: 0.75rem;
+}
+
 .section_two_div2_div1_nu {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  align-items: center;
-  font-size: 0.9rem;
+  align-items: start;
+  font-size: 0.75rem;
 }
 
 .section_two_div2_div1_nam > .address,
 .section_two_div2_div1_nu > .address {
-  font-size: 0.85rem;
+  font-size: 0.72rem;
   font-weight: 300;
 }
 
@@ -81,16 +86,16 @@
 .info_family_woman {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .section_two_div3 {
   display: flex;
-  padding: 0.5rem;
+  padding: 0.4rem;
   background: #424d42;
   height: 60vh;
   width: 95%;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin: 0 auto;
 }
 
@@ -100,7 +105,13 @@
   overflow: hidden;
 }
 
-.section_two_div3_div1_nam_img,
+.section_two_div3_div1_nam_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 23% center;
+}
+
 .section_two_div3_div1_nu_img {
   width: 100%;
   height: 100%;
