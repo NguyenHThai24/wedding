@@ -6,7 +6,7 @@ const SectionThree2Component = forwardRef((props, ref) => {
   return (
     <section id="section33" className="section_three2" ref={ref}>
       <div className="section_two_div4_div3">
-        <h5 className="animate-slide-left">THAM DỰ TIỆC MỪNG LỄ THÀNH HÔN</h5>
+        <h3 className="title animate-slide-right">Tiệc Mừng Lễ Thành Hôn</h3>
         <p className="animate-slide-right">Vào lúc</p>
         <div className="section_two_div4_div3_div1">
           <p className="time-col animate-slide-right">9:00</p>

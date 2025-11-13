@@ -12,6 +12,16 @@ const SectionThreeComponent = forwardRef((props, ref) => {
       <div className="section_two_div4">
         <div className="section_two_div4_div1">
           <h3 className="title animate-slide-right">Trân Trọng Kính Mời</h3>
+          <p
+            style={{
+              textAlign: "center",
+              fontSize: "0.8rem",
+              fontWeight: "400",
+              marginTop: "0.5rem",
+            }}
+          >
+            THAM DỰ LỄ CƯỚI
+          </p>
         </div>
         <div className="section_two_div4_div2">
           <img
