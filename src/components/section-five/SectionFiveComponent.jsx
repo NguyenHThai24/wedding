@@ -1,15 +1,9 @@
 import "./section-five.css";
 import { forwardRef } from "react";
 
-import img1 from "../../../public/images/section-five/1.jpg";
-import img2 from "../../../public/images/section-five/2.jpg";
 import img3 from "../../../public/images/section-five/3.jpg";
 import img4 from "../../../public/images/section-five/4.jpg";
 import img5 from "../../../public/images/section-five/5.jpg";
-import img6 from "../../../public/images/section-five/6.jpg";
-import img7 from "../../../public/images/section-five/7.jpg";
-import img8 from "../../../public/images/section-five/8.jpg";
-import img9 from "../../../public/images/section-five/9.jpg";
 
 const SectionFiveComponent = forwardRef((props, ref) => {
   return (
@@ -58,6 +52,17 @@ const SectionFiveComponent = forwardRef((props, ref) => {
           </div>
         </div>
       </div>
+      <h1
+        className="title"
+        style={{
+          textAlign: "center",
+          marginTop: "2rem",
+          textDecorationLine: "underline",
+          fontSize: "2.5rem",
+        }}
+      >
+        Thanks!
+      </h1>
     </section>
   );
 });

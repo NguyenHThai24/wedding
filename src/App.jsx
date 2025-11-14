@@ -55,7 +55,6 @@ function App() {
       <SectionThree2Component ref={addToRefs} />
       <SectionFourComponent ref={addToRefs} />
       <SectionFiveComponent ref={addToRefs} />
-
       <FloatingHearts />
     </main>
   );
