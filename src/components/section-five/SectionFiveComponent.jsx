@@ -37,13 +37,6 @@ const SectionFiveComponent = forwardRef((props, ref) => {
               className="section_five_div1_column1_row2_img"
             />
           </div>
-          <div className="section_five_div1_column1_row2">
-            <img
-              src={img6}
-              alt=""
-              className="section_five_div1_column1_row2_img"
-            />
-          </div>
         </div>
         {/* end cot 1 */}
         <div className="section_five_div1_column2">
@@ -63,45 +56,8 @@ const SectionFiveComponent = forwardRef((props, ref) => {
               className="section_five_div1_column2_row2_img"
             />
           </div>
-          <div>
-            {" "}
-            <img
-              src={img2}
-              alt=""
-              className="section_five_div1_column2_row3_img"
-            />
-          </div>
         </div>
       </div>
-
-      {/* đang test  */}
-      <div className="section_two_div4">
-        <div className="section_two_div4_div2">
-          <div className="section_two_div4_div2_div1 animation1">
-            {" "}
-            <img
-              src={img1}
-              alt=""
-              className="animate-slide-top section_two_div4_div2_img1"
-            />
-          </div>
-          <div className="section_two_div4_div2_div2 animation2">
-            <img
-              src={img7}
-              alt=""
-              className="animate-zoom-in section_two_div4_div2_img2 "
-            />
-          </div>
-          <div className="section_two_div4_div2_div3 animation3">
-            <img
-              src={img8}
-              alt=""
-              className="animate-slide-bottom section_two_div4_div2_img3"
-            />
-          </div>
-        </div>
-      </div>
-      {/* emd test  */}
     </section>
   );
 });

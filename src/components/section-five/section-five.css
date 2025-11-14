@@ -20,18 +20,18 @@
 
 .section_five_div1_column1,
 .section_five_div1_column2 {
-  height: 100%; /* Đảm bảo cả hai cột chiếm toàn bộ chiều cao */
+  height: 100%;
 }
 
 .section_five_div1_column1 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .section_five_div1_column2 {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr; /* Chia đều chiều cao cho 3 ảnh */
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
 
@@ -57,64 +57,7 @@
 }
 
 /* -------------------------- */
-/* đang test  */
-.section_two_div4 {
-  margin: 0 auto;
-  /* background: var(--color-light); */
-  color: var(--color-black);
-  display: flex;
-  flex-direction: column;
-  gap: 1.3rem;
-  /* padding-top: 3rem; */
-}
 
-.section_two_div4 > .section_two_div4_div1 > h3 {
-  font-weight: 700;
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.section_two_div4_div2 {
-  display: flex;
-  /* gap: 0.2rem; */
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-}
-
-.section_two_div4_div2_div1,
-.section_two_div4_div2_div3 {
-  width: 30%;
-  height: 85%;
-  border: 2px solid #424d42;
-}
-
-.section_two_div4_div2_div1 {
-  border-right: none;
-}
-.section_two_div4_div2_div3 {
-  border-left: none;
-}
-
-.section_two_div4_div2_div2 {
-  width: 40%;
-  height: 100%;
-  border: 2px solid #424d42;
-}
-.section_two_div4_div2_img1,
-.section_two_div4_div2_img3 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.section_two_div4_div2_img2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
 /* ----------------------- */
 /* animation  */
 /* Hiệu ứng 1: Chạy từ trái vào */
