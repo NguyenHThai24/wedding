@@ -8,7 +8,7 @@ import imgTym from "../../../public/images/section-two/tym.png";
 
 const SectionTwoComponent = forwardRef((props, ref) => {
   return (
-    <section id="section2" className="section_two do_bong_tren" ref={ref}>
+    <section id="section2" className="section_two do_bong_tren_duoi" ref={ref}>
       <div className="section_two_div1">
         <p
           className="title animate-slide-left"

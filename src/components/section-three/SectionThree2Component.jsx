@@ -4,8 +4,14 @@ import imgCalendar from "../../../public/images/section-two/calendar.png";
 
 const SectionThree2Component = forwardRef((props, ref) => {
   return (
-    <section id="section33" className="section_three2" ref={ref}>
-      <div className="section_two_div4_div3">
+    <section id="section33" className="section_three2 do_bong_tren" ref={ref}>
+      <div
+        className="section_two_div4_div3"
+        style={{
+          position: "relative",
+          zIndex: "1",
+        }}
+      >
         <h3 className="title animate-slide-right">Tiệc Mừng Lễ Thành Hôn</h3>
         <p className="animate-slide-right">Vào lúc</p>
         <div className="section_two_div4_div3_div1">
@@ -37,7 +43,7 @@ const SectionThree2Component = forwardRef((props, ref) => {
           (Nhằm Ngày 03.01.2026 Âm lịch)
         </p>
       </div>
-      <div>
+      <div className="animate-zoom-in">
         <img src={imgCalendar} alt="Lịch" className="img_calendar" />
       </div>
     </section>

@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import SectionFiveComponent from "./components/section-five/SectionFiveComponent";
 import SectionFourComponent from "./components/section-four/SectionFourComponent";
 import SectionOneComponent from "./components/section-one/SectionOneComponent";
-import SectionThreeComponent from "./components/section-three/SectionThreeComponent";
+//import SectionThreeComponent from "./components/section-three/SectionThreeComponent";
 import SectionTwoComponent from "./components/section-two/SectionTwoComponent";
 import SectionThree2Component from "./components/section-three/SectionThree2Component";
 
@@ -50,7 +50,7 @@ function App() {
     <main>
       <SectionOneComponent ref={addToRefs} />
       <SectionTwoComponent ref={addToRefs} />
-      <SectionThreeComponent ref={addToRefs} />
+      {/* <SectionThreeComponent ref={addToRefs} /> */}
       <SectionThree2Component ref={addToRefs} />
       <SectionFourComponent ref={addToRefs} />
       <SectionFiveComponent ref={addToRefs} />
