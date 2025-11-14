@@ -73,6 +73,35 @@ const SectionFiveComponent = forwardRef((props, ref) => {
           </div>
         </div>
       </div>
+
+      {/* đang test  */}
+      <div className="section_two_div4">
+        <div className="section_two_div4_div2">
+          <div className="section_two_div4_div2_div1 animation1">
+            {" "}
+            <img
+              src={img6}
+              alt=""
+              className="animate-slide-top section_two_div4_div2_img1"
+            />
+          </div>
+          <div className="section_two_div4_div2_div2 animation2">
+            <img
+              src={img7}
+              alt=""
+              className="animate-zoom-in section_two_div4_div2_img2 "
+            />
+          </div>
+          <div className="section_two_div4_div2_div3 animation3">
+            <img
+              src={img8}
+              alt=""
+              className="animate-slide-bottom section_two_div4_div2_img3"
+            />
+          </div>
+        </div>
+      </div>
+      {/* emd test  */}
     </section>
   );
 });
