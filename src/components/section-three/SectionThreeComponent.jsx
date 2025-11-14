@@ -17,28 +17,35 @@ const SectionThreeComponent = forwardRef((props, ref) => {
               textAlign: "center",
               fontSize: "0.8rem",
               fontWeight: "400",
-              marginTop: "0.5rem",
+              marginTop: "1rem",
             }}
           >
             THAM DỰ LỄ CƯỚI
           </p>
         </div>
         <div className="section_two_div4_div2">
-          <img
-            src={img1}
-            alt=""
-            className="animate-slide-top section_two_div4_div2_img1"
-          />
-          <img
-            src={img2}
-            alt=""
-            className="animate-zoom-in section_two_div4_div2_img2"
-          />
-          <img
-            src={img3}
-            alt=""
-            className="animate-slide-bottom section_two_div4_div2_img3"
-          />
+          <div className="section_two_div4_div2_div1 animation1">
+            {" "}
+            <img
+              src={img1}
+              alt=""
+              className="animate-slide-top section_two_div4_div2_img1"
+            />
+          </div>
+          <div className="section_two_div4_div2_div2 animation2">
+            <img
+              src={img2}
+              alt=""
+              className="animate-zoom-in section_two_div4_div2_img2 "
+            />
+          </div>
+          <div className="section_two_div4_div2_div3 animation3">
+            <img
+              src={img3}
+              alt=""
+              className="animate-slide-bottom section_two_div4_div2_img3"
+            />
+          </div>
         </div>
       </div>
       <div></div>

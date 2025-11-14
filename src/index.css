@@ -123,8 +123,30 @@ section {
   z-index: 1;
 }
 
+.animation1 {
+  animation: shake 11.5s infinite ease-in-out;
+}
+
+.animation2 {
+  animation: shake 13.5s infinite ease-in-out;
+}
+
+.animation3 {
+  animation: shake 12.5s infinite ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateY(30px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
 main {
-  max-width: var(--desktop);
+  max-width: var(--tablet);
   background: url("/public/images/background.png") repeat-x;
   background-size: cover;
   background-repeat: no-repeat;
