@@ -31,7 +31,7 @@
 }
 
 .time-col {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   justify-self: end;
 }
@@ -52,7 +52,7 @@
 }
 
 .year-col {
-  font-size: 1.5rem;
+  font-size: 2rem;
   justify-self: start;
   font-weight: 900;
 }

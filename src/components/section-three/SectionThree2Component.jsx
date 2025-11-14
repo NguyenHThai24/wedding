@@ -15,7 +15,7 @@ const SectionThree2Component = forwardRef((props, ref) => {
         <h3 className="title animate-slide-right">Tiệc Mừng Lễ Thành Hôn</h3>
         <p className="animate-slide-right">Vào lúc</p>
         <div className="section_two_div4_div3_div1">
-          <p className="time-col animate-slide-right">9:00</p>
+          <p className="time-col animate-slide-right">9:30</p>
           <div className="vertical-divider"></div>
           <p className="date-col animate-zoom-in">
             Thứ năm <br />
@@ -28,7 +28,7 @@ const SectionThree2Component = forwardRef((props, ref) => {
               19
             </span>{" "}
             <br />
-            Tháng 3
+            Tháng 2
           </p>
           <div className="vertical-divider"></div>
           <p className="year-col animate-slide-left">2026</p>

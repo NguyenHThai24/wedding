@@ -92,7 +92,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  height: 30%;
+  height: 20%;
   background: linear-gradient(
     to bottom,
     rgba(234, 234, 234, 0.8),
@@ -111,10 +111,10 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 30%;
+  height: 20%;
   background: linear-gradient(
     to top,
-    rgba(255, 255, 255, 0.8),
+    rgba(234, 234, 234, 0.8),
     /* đậm ở dưới */ rgba(255, 255, 255, 0.4),
     rgba(255, 255, 255, 0)
   );
@@ -135,10 +135,10 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  height: 30%;
+  height: 20%;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.8),
+    rgba(234, 234, 234, 0.8),
     rgba(255, 255, 255, 0.4),
     rgba(255, 255, 255, 0)
   );
@@ -154,7 +154,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 10%;
+  height: 20%;
   background: linear-gradient(
     to top,
     rgba(234, 234, 234, 0.8),

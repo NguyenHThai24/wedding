@@ -1,0 +1,26 @@
+.pop-heart {
+  position: fixed;
+  opacity: 0;
+  animation: fadeInOut linear forwards;
+  pointer-events: none;
+  z-index: 99999;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+}

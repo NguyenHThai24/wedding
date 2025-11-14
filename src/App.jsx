@@ -6,6 +6,7 @@ import SectionOneComponent from "./components/section-one/SectionOneComponent";
 //import SectionThreeComponent from "./components/section-three/SectionThreeComponent";
 import SectionTwoComponent from "./components/section-two/SectionTwoComponent";
 import SectionThree2Component from "./components/section-three/SectionThree2Component";
+import FloatingHearts from "./components/FloatingHearts/FloatingHearts";
 
 function App() {
   const sectionRefs = useRef([]);
@@ -54,6 +55,8 @@ function App() {
       <SectionThree2Component ref={addToRefs} />
       <SectionFourComponent ref={addToRefs} />
       <SectionFiveComponent ref={addToRefs} />
+
+      <FloatingHearts />
     </main>
   );
 }

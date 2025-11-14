@@ -8,6 +8,54 @@
   text-align: center;
 }
 
+.section_four_div1 {
+  margin-top: 1.2rem;
+  border: 3px solid #424d42;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.section_four_div1 > h4 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.section_four_div1 > p {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.section_four_div2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.section_four_div2_div1,
+.section_four_div2_div2,
+.section_four_div2_div3,
+.section_four_div2_div4 {
+  border: 2px solid #424d42;
+  width: 4rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  border-radius: 1rem;
+  font-weight: 400;
+}
+
+.section_four_div3 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
 /* animation  */
 /* Hiệu ứng 1: Chạy từ trái vào */
 @keyframes slideInLeft {
