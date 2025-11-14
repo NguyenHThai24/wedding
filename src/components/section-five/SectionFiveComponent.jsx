@@ -32,14 +32,14 @@ const SectionFiveComponent = forwardRef((props, ref) => {
           </div>
           <div className="section_five_div1_column1_row2">
             <img
-              src={img1}
+              src={img5}
               alt=""
               className="section_five_div1_column1_row2_img"
             />
           </div>
           <div className="section_five_div1_column1_row2">
             <img
-              src={img2}
+              src={img6}
               alt=""
               className="section_five_div1_column1_row2_img"
             />
@@ -66,7 +66,7 @@ const SectionFiveComponent = forwardRef((props, ref) => {
           <div>
             {" "}
             <img
-              src={img5}
+              src={img2}
               alt=""
               className="section_five_div1_column2_row3_img"
             />
@@ -80,7 +80,7 @@ const SectionFiveComponent = forwardRef((props, ref) => {
           <div className="section_two_div4_div2_div1 animation1">
             {" "}
             <img
-              src={img6}
+              src={img1}
               alt=""
               className="animate-slide-top section_two_div4_div2_img1"
             />
