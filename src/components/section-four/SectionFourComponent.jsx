@@ -23,7 +23,7 @@ const SectionFourComponent = forwardRef((props, ref) => {
         </p>
         <div style={{ width: "100%", height: 200, marginTop: 10 }} className="">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m20!1m11!1m3!1d636.614301809006!2d105.2524978950643!3d10.58303501578722!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d10.583009050235068!2d105.25252945906351!5e1!3m2!1sen!2s!4v1763092850444!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!4v1763179203038!6m8!1m7!1svgJPFPjrhf3ZJeoefcBhig!2m2!1d10.58303501578722!2d105.2524978950643!3f78.51780742548884!4f-29.001742389320242!5f0.7820865974627469"
             width="100%"
             height="100%"
             allowfullscreen=""

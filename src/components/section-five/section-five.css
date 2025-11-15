@@ -1,9 +1,9 @@
 .section_five {
   color: var(--color-black);
-  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .section_five > h3 {

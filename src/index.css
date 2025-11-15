@@ -58,9 +58,6 @@ p {
 }
 
 section {
-  /* padding-top: 3rem; */
-  /* border-bottom: 1px solid red; */
-
   min-height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: normal;
@@ -68,7 +65,7 @@ section {
   position: relative;
   overflow: hidden;
   padding: 0.5rem;
-  border-bottom: 1px solid red;
+  /* border-bottom: 1px solid red; */
 }
 
 .title {
@@ -196,7 +193,7 @@ section {
 
 main {
   max-width: var(--tablet);
-  background: url("/public/images/background.png") repeat-x;
+  /* background: url("/public/images/background.png") repeat-x; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
