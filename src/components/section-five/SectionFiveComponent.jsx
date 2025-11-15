@@ -12,7 +12,7 @@ const SectionFiveComponent = forwardRef((props, ref) => {
       <div className="section_five_div1">
         <div className="section_five_div1_column1">
           <div className="section_five_div1_column1_row1">
-            <p>Lorem ipsum dolor, sit </p>
+            <p>Giữ trọn khoảnh khắc này</p>
             <h3
               className="title"
               style={{
@@ -49,6 +49,60 @@ const SectionFiveComponent = forwardRef((props, ref) => {
               alt=""
               className="section_five_div1_column2_row2_img"
             />
+          </div>
+        </div>
+      </div>
+      <p
+        style={{
+          textAlign: "center",
+          padding: "1.2rem 0",
+          fontWeight: "400",
+          fontSize: "1.5rem",
+        }}
+        className="title"
+      >
+        Vợ chồng nghĩa nặng tình sâu, <br /> cùng nhau sánh bước bạc đầu bên
+        nhau.
+      </p>
+      <div className="section_five_div2">
+        <div style={{ height: "30vh" }}>
+          <img
+            src={img3}
+            alt=""
+            className="section_five_div1_column2_row1_img"
+          />
+        </div>
+        <div
+          style={{
+            display: "flex",
+            gap: "10px",
+            height: "20vh",
+            width: "100%",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              gap: "10px",
+              height: "20vh",
+              width: "100%",
+            }}
+          >
+            <div style={{ flex: 1 }}>
+              <img
+                src={img3}
+                alt=""
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
+
+            <div style={{ flex: 1 }}>
+              <img
+                src={img3}
+                alt=""
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
           </div>
         </div>
       </div>
