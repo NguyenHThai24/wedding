@@ -53,7 +53,7 @@ const SectionTwoComponent = forwardRef((props, ref) => {
         <div className="section_two_div2_2">
           <div>
             <p className="section_two_div2_2_name title animate-slide-right">
-              Nguyễn Thanh Tùng
+              Nguyễn <br /> Thanh Tùng
             </p>
           </div>
           <div
@@ -80,7 +80,7 @@ const SectionTwoComponent = forwardRef((props, ref) => {
               Cô Dâu
             </p> */}
             <p className="section_two_div2_2_name title animate-slide-left ">
-              Nguyễn Thị Trúc Giàu
+              Nguyễn Thị <br /> Trúc Giàu
             </p>
           </div>
         </div>

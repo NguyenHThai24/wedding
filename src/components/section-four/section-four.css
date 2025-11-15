@@ -1,5 +1,8 @@
 .section_four {
   color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section_four > h3 {

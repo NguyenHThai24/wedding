@@ -7,11 +7,27 @@ const SectionOneComponent = forwardRef((props, ref) => {
   return (
     <section id="section1" className="section_one do_bong_duoi" ref={ref}>
       <div className="section_one_div1">
-        <h3 className="title animate-slide-top">Thư Mời Tiệc Cưới</h3>
+        <h3 className="title1 animate-slide-top">Thư Mời Tiệc Cưới</h3>
         <p className="animate-slide-left">19.02.2026</p>
       </div>
-      <div className="section_one_div2">
-        <h3 className="title animate-slide-right ">Thanh Tùng - Trúc Giàu</h3>
+      {/* <div
+        className="title"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          paddingLeft: "0.5rem",
+          paddingRight: "0.5rem",
+        }}
+      ></div> */}
+      <div className="section_one_div2 title">
+        <h1
+          style={{
+            fontSize: "2.2rem",
+          }}
+          className="do_bong_tren_duoi"
+        >
+          Thanh Tùng & Trúc Giàu
+        </h1>
         <img
           src={img1}
           alt=""

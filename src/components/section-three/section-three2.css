@@ -1,5 +1,9 @@
 .section_three2 {
   color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .section_two_div4_div3 {
